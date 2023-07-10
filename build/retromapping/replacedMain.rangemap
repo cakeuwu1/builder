@@ -1,0 +1,58 @@
+Symbol range map extraction starting
+Processing 1 files
+processing com\speed\subtitles\subtitles.java
+@|com\speed\subtitles\subtitles.java|8|27|com.speed.subtitles|package|com.speed.subtitles|(file)
+Class Start: com.speed.subtitles.subtitles
+   @|com\speed\subtitles\subtitles.java|419|428|Minecraft|class|net.minecraft.client.Minecraft
+   @|com\speed\subtitles\subtitles.java|434|443|Minecraft|class|net.minecraft.client.Minecraft
+   @|com\speed\subtitles\subtitles.java|444|456|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+   @|com\speed\subtitles\subtitles.java|492|498|String|class|java.lang.String
+   @|com\speed\subtitles\subtitles.java|510|520|getSession|method|net.minecraft.client.Minecraft|getSession|()Lnet/minecraft/util/Session;
+   @|com\speed\subtitles\subtitles.java|523|531|getToken|method|net.minecraft.util.Session|getToken|()Ljava/lang/String;
+   @|com\speed\subtitles\subtitles.java|570|576|String|class|java.lang.String
+   @|com\speed\subtitles\subtitles.java|591|601|getSession|method|net.minecraft.client.Minecraft|getSession|()Lnet/minecraft/util/Session;
+   @|com\speed\subtitles\subtitles.java|604|615|getUsername|method|net.minecraft.util.Session|getUsername|()Ljava/lang/String;
+   @|com\speed\subtitles\subtitles.java|650|656|String|class|java.lang.String
+   @|com\speed\subtitles\subtitles.java|667|677|getSession|method|net.minecraft.client.Minecraft|getSession|()Lnet/minecraft/util/Session;
+   @|com\speed\subtitles\subtitles.java|680|691|getPlayerID|method|net.minecraft.util.Session|getPlayerID|()Ljava/lang/String;
+   @|com\speed\subtitles\subtitles.java|703|709|String|class|java.lang.String
+   @|com\speed\subtitles\subtitles.java|720|734|BufferedReader|class|java.io.BufferedReader
+   @|com\speed\subtitles\subtitles.java|739|756|InputStreamReader|class|java.io.InputStreamReader
+   @|com\speed\subtitles\subtitles.java|762|765|URL|class|java.net.URL
+   @|com\speed\subtitles\subtitles.java|801|811|openStream|method|java.net.URL|openStream|()Ljava/io/InputStream;
+   @|com\speed\subtitles\subtitles.java|817|825|readLine|method|java.io.BufferedReader|readLine|()Ljava/lang/String;
+   @|com\speed\subtitles\subtitles.java|873|879|String|class|java.lang.String
+   @|com\speed\subtitles\subtitles.java|937|943|String|class|java.lang.String
+   @|com\speed\subtitles\subtitles.java|1127|1144|HttpURLConnection|class|java.net.HttpURLConnection
+   @|com\speed\subtitles\subtitles.java|1150|1167|HttpURLConnection|class|java.net.HttpURLConnection
+   @|com\speed\subtitles\subtitles.java|1173|1176|URL|class|java.net.URL
+   @|com\speed\subtitles\subtitles.java|1187|1201|openConnection|method|java.net.URL|openConnection|()Ljava/net/URLConnection;
+   @|com\speed\subtitles\subtitles.java|1247|1258|setDoOutput|method|java.net.URLConnection|setDoOutput|(Z)V
+   @|com\speed\subtitles\subtitles.java|1305|1321|setRequestMethod|method|java.net.HttpURLConnection|setRequestMethod|(Ljava/lang/String;)V
+   @|com\speed\subtitles\subtitles.java|1341|1359|setRequestProperty|method|java.net.URLConnection|setRequestProperty|(Ljava/lang/String;Ljava/lang/String;)V
+   @|com\speed\subtitles\subtitles.java|1407|1425|setRequestProperty|method|java.net.URLConnection|setRequestProperty|(Ljava/lang/String;Ljava/lang/String;)V
+   @|com\speed\subtitles\subtitles.java|1464|1476|OutputStream|class|java.io.OutputStream
+   @|com\speed\subtitles\subtitles.java|1486|1501|getOutputStream|method|java.net.URLConnection|getOutputStream|()Ljava/io/OutputStream;
+   @|com\speed\subtitles\subtitles.java|1556|1562|String|class|java.lang.String
+   @|com\speed\subtitles\subtitles.java|1571|1577|String|class|java.lang.String
+   @|com\speed\subtitles\subtitles.java|1578|1584|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+   @|com\speed\subtitles\subtitles.java|1732|1738|Object|class|java.lang.Object
+   @|com\speed\subtitles\subtitles.java|1745|1751|System|class|java.lang.System
+   @|com\speed\subtitles\subtitles.java|1752|1763|getProperty|method|java.lang.System|getProperty|(Ljava/lang/String;)Ljava/lang/String;
+   @|com\speed\subtitles\subtitles.java|1788|1794|String|class|java.lang.String
+   @|com\speed\subtitles\subtitles.java|1802|1808|String|class|java.lang.String
+   @|com\speed\subtitles\subtitles.java|1809|1815|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+   @|com\speed\subtitles\subtitles.java|1923|1929|Object|class|java.lang.Object
+   @|com\speed\subtitles\subtitles.java|1953|1959|String|class|java.lang.String
+   @|com\speed\subtitles\subtitles.java|1970|1976|String|class|java.lang.String
+   @|com\speed\subtitles\subtitles.java|1977|1983|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+   @|com\speed\subtitles\subtitles.java|2012|2018|Object|class|java.lang.Object
+   @|com\speed\subtitles\subtitles.java|2098|2103|write|method|java.io.OutputStream|write|([B)V
+   @|com\speed\subtitles\subtitles.java|2112|2120|getBytes|method|java.lang.String|getBytes|(Ljava/nio/charset/Charset;)[B
+   @|com\speed\subtitles\subtitles.java|2121|2137|StandardCharsets|class|java.nio.charset.StandardCharsets
+   @|com\speed\subtitles\subtitles.java|2138|2143|UTF_8|field|java.nio.charset.StandardCharsets|UTF_8
+   @|com\speed\subtitles\subtitles.java|2157|2172|getResponseCode|method|java.net.HttpURLConnection|getResponseCode|()I
+   @|com\speed\subtitles\subtitles.java|2188|2197|Exception|class|java.lang.Exception
+Class End  : com.speed.subtitles.subtitles
+endProcessing com\speed\subtitles\subtitles.java
+
