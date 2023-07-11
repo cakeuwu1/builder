@@ -1,4 +1,4 @@
-package com.speed.subtitles;
+package com.example.examplemod;
 
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.fml.common.Mod;
